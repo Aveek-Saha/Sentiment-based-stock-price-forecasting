@@ -1,2 +1,13 @@
-# Natural Language Processing
-Project 2019
+# Apple Stock Price Forecasting using Sentiment Analysis
+
+Using the [sentiment140 dataset](http://help.sentiment140.com/for-students/) we trained 4 models for binary sentiment classification. The models are- 
+* SVM
+* Logistic regression
+* Naive Bayes
+* LSTM
+
+The historical Apple stock prices(AAPL) were downloaded from Yahoo finance for the period 01-02-2008 to 01-02-2019. Then we collected Tweets and NY Times news articles from the same time period about Apple and some Apple products like Macbooks, iPhones etc. Using the best of the 4 models trained above we assigned an overall sentiment value for each day. 
+
+Now with the opening stock price and a sentiment score, we used an LSTM with a 60 day window to predict future stock prices.
+
+
