@@ -6,8 +6,8 @@ Using the [sentiment140 dataset](http://help.sentiment140.com/for-students/) we 
 * Naive Bayes
 * LSTM
 
-The historical Apple stock prices(AAPL) were downloaded from Yahoo finance for the period 01-02-2008 to 01-02-2019. Then we collected Tweets and NY Times news articles from the same time period about Apple and some Apple products like Macbooks, iPhones etc. Using the best of the 4 models trained above we assigned an overall sentiment value for each day. 
+The historical Apple stock prices(AAPL) were downloaded from Yahoo finance for the period 01-02-2008 to 01-02-2019. Then Tweets and NY Times news articles were collected from the same time period about Apple and some Apple products like Macbooks, iPhones etc. Using the best of the 4 models trained above, the Tweets or News articles were classified as having positive or negative sentiment, then an overall sentiment value is assigned for each day. 
 
-Now with the opening stock price and a sentiment score, we used an LSTM with a 60 day window to predict future stock prices.
+Now with the opening stock price and a sentiment score, an LSTM with a 60 day window is used to predict future stock prices.
 
 
