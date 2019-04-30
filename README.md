@@ -10,4 +10,9 @@ The historical Apple stock prices(AAPL) were downloaded from Yahoo finance for t
 
 Now with the opening stock price and a sentiment score, an LSTM with a 60 day window is used to predict future stock prices.
 
+## Order of execution- 
+1. Preprocess_datasets.ipynb
+2. Train_sentiment_model.ipynb
+3. Create_stock+sentiment_datasets.ipynb
+4. Stock_prediction_LSTM.ipynb
 
